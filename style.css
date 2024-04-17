@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.circle {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-color: brown;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape {
+  height: 5rem;
+  width: 5rem;
+  background-color: white;
+}
+
+#square {
+  height: 5rem;
+  width: 5rem;
+  background-color: white;
+}
+
+#triangle {
+  background-color: transparent;
+  width: 0;
+  height: 0;
+  border-bottom: 75px solid red;
+  border-right: 75px solid transparent;
+}
+
+button {
+  padding: 0.25rem;
+}
